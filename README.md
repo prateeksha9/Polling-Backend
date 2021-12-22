@@ -13,3 +13,5 @@ This is a backend project intended to used at platforms where polling/voting typ
 - Delete the questions: voteforme-api.herokuapp.com/question/:id/delete
 - Add Options to the questions: voteforme-api.herokuapp.com/question/:id/options/create
 - View questions along with its options: voteforme-api.herokuapp.com/question/:id
+- Delete Options: voteforme-api.herokuapp.com/option/:id/add_vote
+- Add Votes to the options: voteforme-api.herokuapp.com/option/:id/delete
