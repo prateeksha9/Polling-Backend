@@ -1,8 +1,3 @@
-// module.exports.front = function (req, res) {
-//   return res.render("home", {
-//     title: "Home",
-//   });
-// };
 
 const Questions = require("../models/question");
 const Options = require("../models/option");
