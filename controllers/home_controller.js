@@ -10,7 +10,7 @@ const Options = require("../models/option");
 module.exports.front = function (req, res) {
   try {
     // finding all the questions and returning
-    let question = await Questions.findById(req.params.id).populate({
+    let question = await Questions.find({}).populate({
       path: "option",
     });
 
