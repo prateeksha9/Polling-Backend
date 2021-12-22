@@ -12,7 +12,7 @@ const optionSchema = new mongoose.Schema(
       required: true,
     },
     text: {
-      type: Number,
+      type: String,
     },
     votes: {
       type: Number,
